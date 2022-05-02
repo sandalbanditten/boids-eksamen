@@ -1,0 +1,17 @@
+[package]
+name = "boids-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tobias <sandalbanditten@tutanota.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/sandalbanditten/boids-rs"
+description = """
+A simulation of boids, written with nannou and using rayon for parallelism.
+"""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nannou = "0.18"
+rayon = "1.5"
